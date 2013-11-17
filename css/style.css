@@ -50,8 +50,8 @@ body {
 	color: #79CDCD;
 }
 .span4 {
-	width: 26%;
-	margin: 0 60px 0 0;
+	width: 28%;
+	margin: 0 50px 0 0;
 }
 
 .span4 img {
@@ -66,7 +66,7 @@ body {
 	font-weight: 100;
 	border-bottom: 2px #d3d3d3 solid;
 	margin: 0 0 10px 0;
-	font-size: 23px;
+	font-size: 20px;
 	line-height: 25px;
 }
 
@@ -89,7 +89,23 @@ body {
 /* NAV BAR */
 .navbar-inverse .navbar-inner {
 	padding: 0 0 0 60px;
-	display:nonea;
+	background-color: #fff!important;
+	opacity: 0.6;
+	background-image: none;
+	border:none;
+	box-shadow: none;
+}
+
+.navbar-inverse .brand, .navbar-inverse .nav > li > a {
+	color: #000;
+	font-size: 18px;
+	font-family: Raleway;
+	font-weight: 400;
+	text-shadow: #d3d3d3 0.1em 0.1em 0.2em
+}
+
+.navbar-inverse .brand, .navbar-inverse .nav > li > a:hover {
+	color: #4d4d4d;
 }
 
 /* Social */
