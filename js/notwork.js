@@ -1,18 +1,3 @@
-function fillPage() {
-	for (var i = 0; i < 3; i++) {
-		$('#fun .row:first').append('<div class="span4"><a href="' + notwork[i].link + '" target="_blank"><h2>' + notwork[i].title + '</h2></a><a href="' + notwork[i].link + '" target="_blank"><img src="' + notwork[i].imglink + '"></a><p>' + notwork[i].description + '</p></div>');
-	}
-	for (var i = 3; i < notwork.length; i++) {
-		row = Math.floor(i/3) + 1;
-		$('#fun .row:nth-child(' + row + ')').append('<div class="span4"><a href="' + notwork[i].link + '" target="_blank"><h2>' + notwork[i].title + '</h2></a><a href="' + notwork[i].link + '" target="_blank"><img src="' + notwork[i].imglink + '"></a><p>' + notwork[i].description + '</p></div>');
-	}
-	footer();
-}
-
-function footer() {
-	$('footer').append('<p>&copy; KK Rebecca Lai</p>');
-}
-
-$(document).ready(function(){
-	fillPage();
-})
+var notwork = [{"title":"Triangle Wall","link":"http://kklai.github.io/triangle-wall/","imglink":"img/thumbnail/triangle.jpg","description":"Something fun with triangles and CSS animation."},
+{"title":"Anger Management","link":"img/anger_management.png","imglink":"img/thumbnail/anger_small.jpg","description":"I was really angry one day and decided to cool down by doing some illustrations."},
+{"title":"The Texas Gifbune","link":"http://texastribuneingifs.tumblr.com/","imglink":"img/thumbnail/julian_beer.gif","description":"When I worked at the Texas Tribune, I also part-timed as office gif-maker!"}]
