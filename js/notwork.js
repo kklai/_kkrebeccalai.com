@@ -1,3 +1,3 @@
-var notwork = [{"title":"Triangle Wall","link":"http://kklai.github.io/triangle-wall/","imglink":"img/thumbnail/triangle.jpg","description":"Something fun with triangles and CSS animation."},
-{"title":"Anger Management","link":"img/anger_management.png","imglink":"img/thumbnail/anger_small.jpg","description":"I was really angry one day and decided to cool down by doing some illustrations."},
-{"title":"The Texas Gifbune","link":"http://texastribuneingifs.tumblr.com/","imglink":"img/thumbnail/julian_beer.gif","description":"When I worked at the Texas Tribune, I also part-timed as office gif-maker!"}]
+var notwork = [{"title":"Triangle Wall","link":"http://kklai.github.io/triangle-wall/","imglink":"img/thumbnail/triangle.jpg","pub": "Personal", "description":"Something fun with triangles and CSS animation."},
+{"title":"Anger Management","link":"img/anger_management.png","imglink":"img/thumbnail/anger_small.jpg","pub": "Personal", "description":"I was really angry one day and decided to cool down by doing some illustrations."},
+{"title":"The Texas Gifbune","link":"http://texastribuneingifs.tumblr.com/","imglink":"img/thumbnail/julian_beer.gif","pub": "Texas Tribune", "description":"When I worked at the Texas Tribune, I also part-timed as office gif-maker!"}]
