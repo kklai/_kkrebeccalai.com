@@ -1,6 +1,6 @@
 var row_number;
-function addRows() {
-	row_number = Math.floor(content.length / 3) + 1;
+function addRows(input) {
+	row_number = Math.floor(input.length / 3) + 1;
 	for (var i = 0; i < row_number; i ++) {
 		$('#work').append("<div class='row'></div>");
 	}
