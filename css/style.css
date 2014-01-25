@@ -38,6 +38,11 @@ body {
 
 /* boxes */
 
+#work {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
 .row {
 	margin: 0 30px 40px 60px;
 }
